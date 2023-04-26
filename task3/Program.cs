@@ -2,38 +2,83 @@
 // 3 -> среда
 // 5 -> пятница
 
-Console.WriteLine("Введите номер: ");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите номер: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-if (number == 1)
+// if (number == 1)
+// {
+//     Console.WriteLine("Its Monday");
+// }
+// else if (number == 2)
+// {
+//     Console.WriteLine("Its Tuesday");
+// }
+// else if (number == 3)
+// {
+//     Console.WriteLine("Its Wednesday");
+// }
+// else if (number == 4)
+// {
+//     Console.WriteLine("Its Thursday");
+// }
+// else if (number == 5)
+// {
+//     Console.WriteLine("Its Friday");
+// }
+// else if (number == 6)
+// {
+//     Console.WriteLine("Its Saturday");
+// }
+// else if (number == 7)
+// {
+//     Console.WriteLine("Its Sunday");
+// }
+// else
+// {
+//     Console.WriteLine("Error!!!");
+// }
+
+switch(number)
+
 {
+    case 1:
+    {
     Console.WriteLine("Its Monday");
-}
-else if(number == 2)
-{
+    break;
+    }
+    case 2:
+    {
     Console.WriteLine("Its Tuesday");
-}
-else if(number == 3)
-{
+    break;
+    }
+    case 3:
+    {
     Console.WriteLine("Its Wednesday");
-}
-else if(number == 4)
-{
+    break;
+    }    
+    case 4:
+    {
     Console.WriteLine("Its Thursday");
-}
-else if(number == 5)
-{
+    break;
+    }    
+    case 5:
+    {
     Console.WriteLine("Its Friday");
-}
-else if(number == 6)
-{
+    break;
+    }    
+    case 6:
+    {
     Console.WriteLine("Its Saturday");
-}
-else if(number == 7)
-{
+    break;
+    }    
+    case 7:
+    {
     Console.WriteLine("Its Sunday");
-}
-else 
-{
+    break;
+    }   
+    default:
+    {
     Console.WriteLine("Error!!!");
+    break;
+    }
 }
