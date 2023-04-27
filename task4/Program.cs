@@ -5,9 +5,14 @@
 
 Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
-int i = -N;
-while (i <= N)
+// int i = -N;
+// while (i <= N)
+// {
+//     Console.Write(i + " ");
+//     i++;
+// }
+
+for (int i = -N; i <= N; i++)
 {
     Console.Write(i + " ");
-    i++;
 }
