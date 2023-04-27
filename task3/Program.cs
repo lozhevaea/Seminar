@@ -2,8 +2,8 @@
 // 3 -> среда
 // 5 -> пятница
 
-// Console.WriteLine("Введите номер: ");
-// int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите номер: ");
+int number = Convert.ToInt32(Console.ReadLine());
 
 // if (number == 1)
 // {
@@ -38,8 +38,7 @@
 //     Console.WriteLine("Error!!!");
 // }
 
-switch(number)
-
+switch (number)
 {
     case 1:
     {
