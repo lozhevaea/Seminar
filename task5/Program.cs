@@ -6,4 +6,11 @@
 
 Console.WriteLine("Введите трехзначное число: ");
 int A = int.Parse(Console.ReadLine());
-Console.WriteLine(A % 10);
+if (A > 99 && A < 1000)
+{
+   Console.WriteLine(A % 10);
+}
+else
+{
+    Console.WriteLine("Число не трехзначное");
+}
