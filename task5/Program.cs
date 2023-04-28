@@ -5,7 +5,7 @@
 // 918 -> 8
 
 Console.WriteLine("Введите трехзначное число: ");
-int A = int.Parse(Console.ReadLine());
+int A = Convert.ToInt32(Console.ReadLine());
 if (A > 99 && A < 1000)
 {
    Console.WriteLine(A % 10);
