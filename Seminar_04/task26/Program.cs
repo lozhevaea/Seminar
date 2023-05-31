@@ -20,5 +20,5 @@ int CountNambers(int A)
     return sum;
 }
 
-int A = ReadInt("Введите число: ");
-System.Console.WriteLine(CountNambers(A));
+int B = ReadInt("Введите число: ");
+System.Console.WriteLine(CountNambers(B));
