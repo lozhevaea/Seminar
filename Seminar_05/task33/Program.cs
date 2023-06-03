@@ -40,8 +40,8 @@ bool CheckIfInArr(int[] arr, int num)
         {
             return true;
         }
-     return false;
     }
+    return false;
 }
 
 Main();
