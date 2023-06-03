@@ -28,7 +28,7 @@ void PrintArray(int[]Array)
     System.Console.WriteLine("[" + string.Join(", ", Array) + "]");
 }
 
-int CountPairs(int[] arr, int size)
+int[] CountPairs(int[] arr, int size)
 {
     int[] Array = new int[size];
     for (int i = 0; i < arr.Length / 2; i++)
