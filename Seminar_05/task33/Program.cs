@@ -26,6 +26,7 @@ int[] FillArray(int size, int leftRange, int rightRange)
     }
     return Array;
 }
+
 void PrintArray(int[] Array)
 {
     System.Console.WriteLine("[" + string.Join(", ", Array) + "]");
@@ -43,20 +44,4 @@ bool CheckIfInArr(int[] arr, int num)
     }
 }
 
-// int ChackIfInArr(int[] arr, int num)
-// {
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         if (arr[i] == num)
-//         {
-//            return System.Console.WriteLine("Да");
-//         }
-//         return System.Console.WriteLine("Нет");
-//     }
-// }
-
-// Main();
-
-
-// int[] arr = {3, 4, 8, 6};
-// System.Console.WriteLine(Array.IndexOf(arr, 5));
+Main();
