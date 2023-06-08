@@ -24,15 +24,15 @@ void PrintArray(int[] arr)
     System.Console.WriteLine(string.Join(" ", arr));
 }
 
-int[] CopyArray(int[] Arr)
-{
-    int[] copyArr = new int[Arr.Length];
-    for (int i = 0; i < Arr.Length; i++)
-    {
-        copyArr[i] = Arr[i];
-    }
-    return copyArr;
-}
+// int[] CopyArray(int[] Arr)
+// {
+//     int[] copyArr = new int[Arr.Length];
+//     for (int i = 0; i < Arr.Length; i++)
+//     {
+//         copyArr[i] = Arr[i];
+//     }
+//     return copyArr;
+// }
 
 // int[] arr = FillArray(5, 0, 10);
 // int[] test = arr; //Память в данном случае под копию массива не выделяется
