@@ -3,6 +3,7 @@
 
 void Main()
 {
+    Console.Clear();
     System.Console.Write("Введите размер матрицы: ");
     int[] size = Console.ReadLine()!.Split(" ").Select(x => int.Parse(x)).ToArray();
     int[,] matrix = new int[size[0], size[1]];
