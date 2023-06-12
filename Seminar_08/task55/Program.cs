@@ -83,4 +83,10 @@ bool TransponMatrix(int[,] matrix)
         return true;
     }
 }
+
+void MatrixCount(int[] arr, int[,] matrix)
+{
+    
+}
+
 Main();
