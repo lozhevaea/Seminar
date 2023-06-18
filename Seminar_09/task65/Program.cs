@@ -3,6 +3,19 @@
 // M = 1; N = 5 -> "1, 2, 3, 4, 5"
 // M = 4; N = 8 -> "4, 6, 7, 8"
 
+void Main()
+{
+    int M = ReadInt("Введите значение M: ");
+    int N = ReadInt("Введите значение N: ");
+    if (M < N)
+    {
+        FindNumbers(M, N);
+    }
+    else
+    {
+        FindNumbers(N, M);
+    }
+}
 
 int ReadInt(string text)
 {
@@ -18,4 +31,4 @@ void FindNumbers(int m, int n)
 
 }
 
-FindNumbers(ReadInt("Введите значение M: "), ReadInt("Введите значение N: "));
+Main();
